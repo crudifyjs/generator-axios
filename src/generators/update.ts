@@ -12,7 +12,7 @@ export interface UpdateApiOptions<UPDATE, ID, RESULT> {
     transformUpdateResponse?: (data: unknown) => RESULT | Promise<RESULT>;
 }
 
-export function generateUpdateAPI<UPDATE, ID extends number | string, RESULT = void>(
+export function generateUpdateAPI<UPDATE, ID extends number | string = number, RESULT = void>(
     options: UpdateApiOptions<UPDATE, ID, RESULT>,
 ): UpdateAPI<UPDATE, ID, RESULT> {
     return {

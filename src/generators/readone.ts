@@ -11,7 +11,7 @@ export interface ReadOneApiOptions<READ, ID> {
     transformOneResponse?: (data: unknown) => READ | Promise<READ>;
 }
 
-export function generateReadOneAPI<READ, ID extends number | string>(
+export function generateReadOneAPI<READ, ID extends number | string = number>(
     options: ReadOneApiOptions<READ, ID>,
 ): ReadOneAPI<READ, ID> {
     return {

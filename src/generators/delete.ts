@@ -1,14 +1,16 @@
 import { DeleteAPI } from '@crudifyjs/api';
 import { AxiosInstance } from 'axios';
 
+import { buildPath } from '@/helpers/path';
+
 export interface DeleteApiOptions<ID> {
     axiosInstance: AxiosInstance;
-    baseUrl: string;
+    basePath: string;
     deletePath?: ((id: ID) => string) | string | false;
     deleteParams?: (id: ID) => unknown;
 }
 
-export function generateDeleteAPI<ID extends number | string>(
+export function generateDeleteAPI<ID extends number | string = number>(
     options: DeleteApiOptions<ID>,
 ): DeleteAPI<ID> {
     return {
@@ -26,10 +28,8 @@ export function generateDeleteAPI<ID extends number | string>(
 
             const params = options.deleteParams?.(id);
 
-            await options.axiosInstance({
+            await options.axiosInstance(buildPath(options.basePath, path), {
                 method: 'DELETE',
-                baseURL: options.baseUrl,
-                url: path,
                 params,
             });
         },

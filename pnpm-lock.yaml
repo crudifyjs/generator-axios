@@ -7396,7 +7396,7 @@ packages:
   /table/5.4.6:
     dependencies:
       ajv: 6.12.3
-      lodash: 4.17.15
+      lodash: 4.17.19
       slice-ansi: 2.1.0
       string-width: 3.1.0
     dev: true
