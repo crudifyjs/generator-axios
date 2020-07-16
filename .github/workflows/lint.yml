@@ -1,4 +1,4 @@
-name: lint
+name: Lint
 
 on:
   push:
@@ -11,13 +11,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2.3.1
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1.4.2
-      with:
-        node-version: 12
-    - uses: pnpm/action-setup@v1.2.0
-      with:
-        version: 5
-        run_install: true
-    - run: pnpm run lint
+      - name: Check out Git repository
+        uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: Install dependencies
+        uses: pnpm/action-setup@v1.2.0
+        with:
+          version: 5
+          run_install: true
+      - name: Run linter
+        uses: samuelmeuli/lint-action@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          eslint: true
