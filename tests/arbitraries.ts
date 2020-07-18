@@ -1,13 +1,13 @@
 import { Page, Pagination } from '@crudifyjs/api';
 import fc from 'fast-check';
-import { isEqual } from 'lodash';
+import deepEqual from 'fast-deep-equal';
 
 export const positiveIntegerArb = fc.nat().filter(number => number > 0);
 
 export const idArb = positiveIntegerArb;
 
 export const requestArb = fc.object()
-    .filter(object => isEqual(object, JSON.parse(JSON.stringify(object))));
+    .filter(object => deepEqual(object, JSON.parse(JSON.stringify(object))));
 
 export const responseObjectArb = fc.jsonObject();
 export const responseArrayArb = fc.array(fc.jsonObject().filter(object => !Array.isArray(object)));
