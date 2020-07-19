@@ -1,5 +1,5 @@
 dependencies:
-  '@crudifyjs/api': 0.0.4
+  '@crudifyjs/api': 0.0.5
 devDependencies:
   '@crudifyjs/eslint-config-typescript': 0.0.6_eslint@7.2.0+typescript@3.9.5
   '@types/jest': 26.0.3
@@ -1009,10 +1009,10 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-v9kIhKwjeZThiWrLmj0y17CWoyddASLj9O2yvbZkbvw/N3rWOYy9zkV66ursAoVr0mV15bL8g0c4QZUE6cdDoQ==
-  /@crudifyjs/api/0.0.4:
+  /@crudifyjs/api/0.0.5:
     dev: false
     resolution:
-      integrity: sha512-SyzyRxDogsC22GuGC1/G0F7rEm5wYk8CZzKkRu59SWP0kWJstC2dxCuKpoOe9x+piRANt6Jw5KGbrt/Y93udtg==
+      integrity: sha512-xlQtCFaP+Jt7BpfzPVNoho2KTCoA71D9rCWd9Rjo1Diwyde5/iHIdCtl7o8NOI87q8+av/3Fd0vHom2KuGB+ZQ==
   /@crudifyjs/eslint-config-base/0.0.2_eslint@7.2.0:
     dependencies:
       eslint-config-airbnb-base: 14.2.0_6e76ba4f70b30cf0444ff6c0e7fc4a9e
@@ -8020,7 +8020,7 @@ packages:
     resolution:
       integrity: sha512-aePbxDmcYW++PaqBsJ+HYUFwCdv4LVvdnhBy78E57PIor8/OVvhMrADFFEDh8DHDFRv/O9i3lPhsENjO7QX0+A==
 specifiers:
-  '@crudifyjs/api': 0.0.4
+  '@crudifyjs/api': 0.0.5
   '@crudifyjs/eslint-config-typescript': 0.0.6
   '@types/jest': 26.0.3
   '@types/lodash': 4.14.157

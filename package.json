@@ -20,7 +20,7 @@
   ],
   "sideEffects": false,
   "dependencies": {
-    "@crudifyjs/api": "0.0.4"
+    "@crudifyjs/api": "0.0.5"
   },
   "peerDependencies": {
     "axios": "^0.19.0"
