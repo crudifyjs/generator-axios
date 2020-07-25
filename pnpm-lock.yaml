@@ -3,7 +3,7 @@ dependencies:
 devDependencies:
   '@crudifyjs/eslint-config-typescript': 0.0.6_eslint@7.5.0+typescript@3.9.7
   '@types/jest': 26.0.5
-  '@types/lodash': 4.14.157
+  '@types/lodash': 4.14.158
   '@zerollup/ts-transform-paths': 1.7.18_typescript@3.9.7
   agadoo: 2.0.0
   axios: 0.19.2
@@ -1370,10 +1370,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
-  /@types/lodash/4.14.157:
+  /@types/lodash/4.14.158:
     dev: true
     resolution:
-      integrity: sha512-Ft5BNFmv2pHDgxV5JDsndOWTRJ+56zte0ZpYLowp03tW+K+t8u8YMOzAnpuqPgzX6WO1XpDIUm7u04M8vdDiVQ==
+      integrity: sha512-InCEXJNTv/59yO4VSfuvNrZHt7eeNtWQEgnieIA+mIC+MOWM9arOWG2eQ8Vhk6NbOre6/BidiXhkZYeDY9U35w==
   /@types/node/14.0.23:
     dev: true
     resolution:
@@ -7971,7 +7971,7 @@ specifiers:
   '@crudifyjs/api': 0.0.4
   '@crudifyjs/eslint-config-typescript': 0.0.6
   '@types/jest': 26.0.5
-  '@types/lodash': 4.14.157
+  '@types/lodash': 4.14.158
   '@zerollup/ts-transform-paths': 1.7.18
   agadoo: 2.0.0
   axios: 0.19.2
