@@ -33,7 +33,7 @@
     "agadoo": "2.0.0",
     "axios": "0.20.0",
     "axios-mock-adapter": "1.18.1",
-    "bili": "4.10.1",
+    "bili": "5.0.5",
     "es-check": "5.1.0",
     "eslint": "7.7.0",
     "eslint-import-resolver-typescript": "2.2.0",
