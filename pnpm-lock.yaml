@@ -3,7 +3,7 @@ dependencies:
 devDependencies:
   '@crudifyjs/eslint-config-typescript': 0.0.6_eslint@7.7.0+typescript@3.9.7
   '@types/jest': 26.0.5
-  '@types/lodash': 4.14.157
+  '@types/lodash': 4.14.168
   '@zerollup/ts-transform-paths': 1.7.18_typescript@3.9.7
   agadoo: 2.0.0
   axios: 0.20.0
@@ -22,7 +22,7 @@ devDependencies:
   ts-jest: 26.1.3_jest@26.1.0+typescript@3.9.7
   tslib: 2.0.1
   typescript: 3.9.7
-lockfileVersion: 5.1
+lockfileVersion: 5.2
 packages:
   /@babel/code-frame/7.10.4:
     dependencies:
@@ -1080,7 +1080,7 @@ packages:
       jest-haste-map: 26.1.0
       jest-message-util: 26.1.0
       jest-regex-util: 26.0.0
-      jest-resolve: 26.1.0_jest-resolve@26.1.0
+      jest-resolve: 26.1.0
       jest-resolve-dependencies: 26.1.0
       jest-runner: 26.1.0
       jest-runtime: 26.1.0
@@ -1148,7 +1148,7 @@ packages:
       istanbul-lib-source-maps: 4.0.0
       istanbul-reports: 3.0.2
       jest-haste-map: 26.1.0
-      jest-resolve: 26.1.0_jest-resolve@26.1.0
+      jest-resolve: 26.1.0
       jest-util: 26.1.0
       jest-worker: 26.1.0
       slash: 3.0.0
@@ -1370,10 +1370,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-7ihweulOEdK4J7y+UnC86n8+ce4=
-  /@types/lodash/4.14.157:
+  /@types/lodash/4.14.168:
     dev: true
     resolution:
-      integrity: sha512-Ft5BNFmv2pHDgxV5JDsndOWTRJ+56zte0ZpYLowp03tW+K+t8u8YMOzAnpuqPgzX6WO1XpDIUm7u04M8vdDiVQ==
+      integrity: sha512-oVfRvqHV/V6D1yifJbVRU3TMp8OT6o6BG+U9MkwuJ3U8/CsDHvalRpsxBqivn71ztOFZBTfJMvETbqHiaNSj7Q==
   /@types/node/14.0.23:
     dev: true
     resolution:
@@ -4420,7 +4420,7 @@ packages:
       jest-get-type: 26.0.0
       jest-jasmine2: 26.1.0
       jest-regex-util: 26.0.0
-      jest-resolve: 26.1.0_jest-resolve@26.1.0
+      jest-resolve: 26.1.0
       jest-util: 26.1.0
       jest-validate: 26.1.0
       micromatch: 4.0.2
@@ -4599,7 +4599,7 @@ packages:
       integrity: sha512-1Rm8EIJ3ZFA8yCIie92UbxZWj9SuVmUGcyhLHyAhY6WI3NIct38nVcfOPWhJteqSn8V8e3xOMha9Ojfazfpovw==
   /jest-pnp-resolver/1.2.2_jest-resolve@26.1.0:
     dependencies:
-      jest-resolve: 26.1.0_jest-resolve@26.1.0
+      jest-resolve: 26.1.0
     dev: true
     engines:
       node: '>=6'
@@ -4626,7 +4626,7 @@ packages:
       node: '>= 10.14.2'
     resolution:
       integrity: sha512-fQVEPHHQ1JjHRDxzlLU/buuQ9om+hqW6Vo928aa4b4yvq4ZHBtRSDsLdKQLuCqn5CkTVpYZ7ARh2fbA8WkRE6g==
-  /jest-resolve/26.1.0_jest-resolve@26.1.0:
+  /jest-resolve/26.1.0:
     dependencies:
       '@jest/types': 26.1.0
       chalk: 4.1.0
@@ -4639,8 +4639,6 @@ packages:
     dev: true
     engines:
       node: '>= 10.14.2'
-    peerDependencies:
-      jest-resolve: '*'
     resolution:
       integrity: sha512-KsY1JV9FeVgEmwIISbZZN83RNGJ1CC+XUCikf/ZWJBX/tO4a4NvA21YixokhdR9UnmPKKAC4LafVixJBrwlmfg==
   /jest-runner/26.1.0:
@@ -4658,7 +4656,7 @@ packages:
       jest-jasmine2: 26.1.0
       jest-leak-detector: 26.1.0
       jest-message-util: 26.1.0
-      jest-resolve: 26.1.0_jest-resolve@26.1.0
+      jest-resolve: 26.1.0
       jest-runtime: 26.1.0
       jest-util: 26.1.0
       jest-worker: 26.1.0
@@ -4690,7 +4688,7 @@ packages:
       jest-message-util: 26.1.0
       jest-mock: 26.1.0
       jest-regex-util: 26.0.0
-      jest-resolve: 26.1.0_jest-resolve@26.1.0
+      jest-resolve: 26.1.0
       jest-snapshot: 26.1.0
       jest-util: 26.1.0
       jest-validate: 26.1.0
@@ -4724,7 +4722,7 @@ packages:
       jest-haste-map: 26.1.0
       jest-matcher-utils: 26.1.0
       jest-message-util: 26.1.0
-      jest-resolve: 26.1.0_jest-resolve@26.1.0
+      jest-resolve: 26.1.0
       natural-compare: 1.4.0
       pretty-format: 26.1.0
       semver: 7.3.2
@@ -6494,7 +6492,7 @@ packages:
       tough-cookie: 2.5.0
       tunnel-agent: 0.6.0
       uuid: 3.4.0
-    deprecated: 'request has been deprecated, see https://github.com/request/request/issues/3142'
+    deprecated: request has been deprecated, see https://github.com/request/request/issues/3142
     dev: true
     engines:
       node: '>= 6'
@@ -6537,7 +6535,7 @@ packages:
     resolution:
       integrity: sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==
   /resolve-url/0.2.1:
-    deprecated: 'https://github.com/lydell/resolve-url#deprecated'
+    deprecated: https://github.com/lydell/resolve-url#deprecated
     dev: true
     resolution:
       integrity: sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
@@ -7692,7 +7690,7 @@ packages:
     resolution:
       integrity: sha512-KY9Frmirql91X2Qgjry0Wd4Y+YTdrdZheS8TFwvkbLWf/G5KNJDCh6pKL5OZctEW4+0Baa5idK2ZQuELRwPznQ==
   /urix/0.1.0:
-    deprecated: 'Please see https://github.com/lydell/urix#deprecated'
+    deprecated: Please see https://github.com/lydell/urix#deprecated
     dev: true
     resolution:
       integrity: sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
@@ -7960,7 +7958,7 @@ specifiers:
   '@crudifyjs/api': 0.0.4
   '@crudifyjs/eslint-config-typescript': 0.0.6
   '@types/jest': 26.0.5
-  '@types/lodash': 4.14.157
+  '@types/lodash': 4.14.168
   '@zerollup/ts-transform-paths': 1.7.18
   agadoo: 2.0.0
   axios: 0.20.0
