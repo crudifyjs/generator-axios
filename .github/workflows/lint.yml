@@ -23,7 +23,7 @@ jobs:
           version: 5
           run_install: true
       - name: Run linter
-        uses: samuelmeuli/lint-action@v1
+        uses: samuelmeuli/lint-action@v2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           eslint: true
