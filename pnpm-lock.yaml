@@ -12,7 +12,7 @@ devDependencies:
   es-check: 5.1.0
   eslint: 7.7.0
   eslint-import-resolver-typescript: 2.2.0_eslint@7.7.0
-  fast-check: 2.0.0
+  fast-check: 3.11.0
   fast-deep-equal: 3.1.3
   husky: 4.2.5
   jest: 26.1.0
@@ -3422,14 +3422,14 @@ packages:
       node: '> 0.1.90'
     resolution:
       integrity: sha1-Ys8SAjTGg3hdkCNIqADvPgzCC8A=
-  /fast-check/2.0.0:
+  /fast-check/3.11.0:
     dependencies:
-      pure-rand: 3.0.0
+      pure-rand: 6.0.2
     dev: true
     engines:
       node: '>=8.0.0'
     resolution:
-      integrity: sha512-ef4Au3VLUnqVZVd5vccLd4/cgRsu5lmfj7wpfMdS7OlgS2z3QNd5WmpocHCk/XSQ07Ps8phg0KgLbNzLByp4fw==
+      integrity: sha512-H2tctb7AGfFQfz+DEr3UWhJ3s47LXsGp5g3jeJr5tHjnf4xUvpArIqiwcDmL2EXiv+auLHIpF5MqaIpIKvpxiA==
   /fast-deep-equal/3.1.3:
     dev: true
     resolution:
@@ -6298,10 +6298,10 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
-  /pure-rand/3.0.0:
+  /pure-rand/6.0.2:
     dev: true
     resolution:
-      integrity: sha512-7/U3rk8elhZPagxdheW1UHEhRr0IF8wCs3qyYVVswSxLoRrrrCMyaTKtAYIrCfuTeUoX/O3rN1piY/pX8JEcEA==
+      integrity: sha512-6Yg0ekpKICSjPswYOuC5sku/TSWaRYlA0qsXqJgM/d/4pLPHPuTxK7Nbf7jFKzAeedUhR8C7K9Uv63FBsSo8xQ==
   /q/1.5.1:
     dev: true
     engines:
@@ -7969,7 +7969,7 @@ specifiers:
   es-check: 5.1.0
   eslint: 7.7.0
   eslint-import-resolver-typescript: 2.2.0
-  fast-check: 2.0.0
+  fast-check: 3.11.0
   fast-deep-equal: 3.1.3
   husky: 4.2.5
   jest: 26.1.0
